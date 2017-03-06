@@ -106,7 +106,7 @@ if(session_status() == PHP_SESSION_NONE){
                     <?php endif; ?>
                 </li>
                 </ul>
-                  <li><a href="#">À propos & CGU</a></li>
+                  <li><a href="cgu.php">À propos & CGU</a></li>
                   <li><a href='admin/admin.php'>Administration</a></li>
     					</ul>
   					</div>
