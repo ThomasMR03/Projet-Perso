@@ -210,3 +210,12 @@ li {
 #form_com {
 	margin: -60px;
 }
+
+/*A propos*/
+
+#propos {
+	font-family: 'Indie Flower', cursive;
+	border: 2px solid black;
+	height: 100%;
+	padding-left: 10px;
+}

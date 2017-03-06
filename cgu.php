@@ -31,12 +31,50 @@
  
 <!-- Insertion d’une première section qui occupe 3 colonnes de notre nouvelle grille. -->
             <div class="col-xs-1"> 
-             
+                
             </div> 
  
 <!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
-            <div class="col-xs-10"> 
-                
+            <div class="col-xs-10">
+                <h1 style="text-align: center; font-family: 'Indie Flower', cursive;">À propos & CGU</h1> 
+                <div id="propos">
+                    <p><i>Le 06/03/17, par CaptainFire03.</i></p>
+                    <h2><b>À propos</b></h2>
+                    </br>
+                    <h4><b>L'histoire du site</b></h4>
+
+                    <h4><b>Compatibilité</b></h4>
+
+                    <h5><b>Javascript</b></h5>
+
+                    <h2><b>Conditions générales d'utilisation</b></h2>
+
+                    <h4><b>1.Introduction</b></h4>
+
+                    <h4><b>2.Acceptation des CGU</b></h4>
+
+                    <h4><b>3.Accès</b></h4>
+
+                    <h4><b>4.Espace membre</b></h4>
+
+                    <h5><b>4.1.Inscription</b></h5>
+
+                    <h5><b>4.2.Informations relatives à votre compte</b></h5>
+
+                    <h4><b>5.Responsabilité</b></h4>
+
+                    <h4><b>6.Cookies</b></h4>
+
+                    <h4><b>7.Comportement</b></h4>
+
+                    <h4><b>8.Sanctions</b></h4>
+
+                    <h4><b>9.Propriété intellectuelle</b></h4>
+
+                    <h4><b>10.Divers</b></h4>
+
+                    <h2><b>Mentions légales</b></h2>
+                </div>
             </div> 
             
 <!-- cette derniere section occupe le reste de la grille (4 colonnes) -->
