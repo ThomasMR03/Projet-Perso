@@ -80,7 +80,7 @@ if(session_status() == PHP_SESSION_NONE){
                   <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="news.php">News</a></li>
-                    <li><a href="#">Mise à jours</a></li>
+                    <li><a href="maj.php">Mise à jours</a></li>
                     </li>
                 </ul>
                 <li class="dropdown">
