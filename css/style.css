@@ -44,6 +44,18 @@ input {
 	display: block;
 }
 
+#Qui_suis_je {
+	display: none;
+	animation: POP 3s;
+	font-family: 'Indie Flower', cursive;
+	border-radius: 50px;
+	background-color: #FAF0E6;
+}
+
+#Qui_suis_je:target {
+	display: block;
+}
+
 #hover {
 	background-color: #CECECE;
 	opacity: 0.8;
@@ -217,6 +229,9 @@ li {
 	background-image: url(http://www.edsparkcreation.com/image/fondcla.jpg);
 	background-attachment: fixed, scroll;
 	background-size: cover;
+}
+
+#color_cgu {
 	color: #FFFFFF;
 }
 
@@ -225,4 +240,5 @@ li {
 	border-radius: 10px;
 	height: 100%;
 	padding: 10px;
+
 }

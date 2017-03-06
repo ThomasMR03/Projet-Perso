@@ -38,6 +38,7 @@
             <div class="col-xs-2">
                 <ul class="nav nav-pills nav-stacked">
                     <li><a id="hover" href="#bienvenue"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a id="hover" href="#Qui_suis_je"><span class="glyphicon glyphicon-pencil"></span> Présentation</a></li>
                     <li><a id="hover" href="#Almanax"><span class="glyphicon glyphicon-book"></span> Almanax</a></li>
                     <li><a id="hover" href="#Facebook"><span class="fa fa-facebook"></span> Facebook</a></li>
                     <li><a id="hover" href="#Twitter"><span class="fa fa-twitter"></span> Twitter</a></li>
@@ -53,6 +54,9 @@
             <div class="col-xs-5">
                 <div id="bienvenue" class="well">
                     <h2 style="text-align: center;">Je vous souhaite la bienvenue sur mon site web</h2>
+                </div>
+                <div id="Qui_suis_je" class="well">
+                    <h2 style="text-align: center;">Présentation :</h2>
                 </div>
                 <div id="Almanax">
                 <iframe width="350" height="150" frameborder="0" scrolling="no" 

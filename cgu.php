@@ -35,7 +35,7 @@
             </div> 
  
 <!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
-            <div class="col-xs-10">
+            <div class="col-xs-10" id="color_cgu">
                 <h1 style="text-align: center; font-family: 'Indie Flower', cursive;">À propos & CGU</h1> 
                 <div id="propos">
                     <p><i>Le 06/03/17, par CaptainFire03.</i></p>
