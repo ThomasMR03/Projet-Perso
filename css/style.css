@@ -213,9 +213,17 @@ li {
 
 /*A propos*/
 
+#cgu_img {
+	background-image: url(http://www.edsparkcreation.com/image/fondcla.jpg);
+	background-attachment: fixed, scroll;
+	background-size: cover;
+	color: #FFFFFF;
+}
+
 #propos {
 	font-family: 'Indie Flower', cursive;
-	border: 2px solid black;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
 	height: 100%;
-	padding-left: 10px;
+	padding: 10px;
 }

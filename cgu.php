@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
 	<title>À propos & CGU</title>
-<body>
+<body id="cgu_img">
 
 <header>
 
