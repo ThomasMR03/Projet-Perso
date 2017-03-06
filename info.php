@@ -17,7 +17,6 @@
             <h3 class="panel-title"><span class="glyphicon glyphicon-info-sign"> </span> Informations</h3>
         </div>
         <div class="panel-body">
-            <p>Nouvelle article en ligne (Pas terminé) !</p>
-            <p>Pour le visiter cliquer ici : <a href="news.php">Un nouveau sur Vil Smisse</a></p>
+            <p>La rédaction de plusieurs articles sont en cours.</p>
         </div>
 </div>
