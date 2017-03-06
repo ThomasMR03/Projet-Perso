@@ -1,0 +1,24 @@
+<div id="top">
+  <h1><span><a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a></span></h1>
+</div>
+
+<p id="prelude">
+	<a href="#main">{{tpl:lang To content}}</a><span> |
+	</span><a href="#blognav">{{tpl:lang To menu}}</a><span> |
+	</span><a href="#search">{{tpl:lang To search}}</a>
+</p>
+
+<div id="toptags">
+	<ul>
+		<tpl:Tags limit="24">
+			<li class="tag{{tpl:TagRoundPercent}}"><a href="{{tpl:TagURL}}">{{tpl:TagID}}</a></li>
+		</tpl:Tags>
+	</ul>
+</div>
+<div id="nav">
+  {{tpl:SimpleMenu class="mobile-hidden" description="title"}}
+</div>
+<p class="breadcrumb">{{tpl:Breadcrumb separator=" » "}}</p>
+
+<!-- # --BEHAVIOR-- publicTopAfterContent -->
+{{tpl:SysBehavior behavior="publicTopAfterContent"}}

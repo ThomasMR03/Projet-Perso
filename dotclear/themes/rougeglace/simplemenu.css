@@ -1,0 +1,38 @@
+/*
+# ***** BEGIN LICENSE BLOCK *****
+#
+# Thème Rouge glace par franck[à]ouik.fr pour Dotclear
+# Librement inspiré du thème Hermione par Kozlika - http://ateliers.klafoutis.org/
+# Licensed under the GPL version 2.0 license.
+# See LICENSE file or
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+#
+# ***** END LICENSE BLOCK *****
+*/
+#nav {display:inline;}
+  
+.simple-menu {
+	font-size: 1.143em;
+	padding: 0;
+	margin-left: 6px;
+}
+.simple-menu li {
+	display: inline-block;
+	border-left: 1px dotted #333;
+}
+.simple-menu li.li-first {
+	border: none;
+}
+.simple-menu a {
+	padding: .3em .6em .2em;
+	margin: 0 2px;
+}
+
+.simple-menu a:hover, .simple-menu a:focus {
+	background: #222;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+.simple-menu li.active a {
+    color: #e3c8ac;
+}

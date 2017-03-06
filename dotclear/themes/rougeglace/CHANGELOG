@@ -1,0 +1,46 @@
+Version 1.5.2 - 28 février 2014 (Pierre Van Glabeke)
+=============================================
+* Modification de _config.php et _public.php pour le traitement des options (menu et breadcrumb)
+* Suppression styles obsolètes et modifications css
+
+
+Version 1.5.1 - 20 février 2014 (Pierre Van Glabeke)
+=============================================
+* Ajout configurateur pour affichage simplemenu + breadcrumb
+* Modification style.css (externalisation css pour simplemenu, breadcrumb ; import wikibar.css (+ modifs))
+* dc2.6 minimum requis
+* Modification public.po
+* Ajout bloc licence fichier css et php
+* Suppression _head.html au profit de user_head.html
+* Ajout code pour cacher le formulaire de commentaire dans post.html et page.html
+
+
+Version 1.5 - 2 octobre 2013
+=============================================
+* Graphique : refresh à base de CSS3, media queries pour compatibilité tout écran, augmentation de la taille de police
+* Fonctionnel : ajout du volet supplémentaire "custom" dans le footer, ajout sur la page d'accueil, dans les billets ayant des extraits, de la 1ère image (si elle existe dans le billet) flottante à droite (balise {{tpl:EntryFirstImage}}), ajout de traductions
+* Nettoyage : correctif de sécurité, suppression de gabarits inutiles (tag.html, tags.html, post.html), diverses autres optimisations
+* Compatibilité CSS plugins : DayMode, Contact me, Wikibar, Menu simple, Event handler, Breadcrumb (1)
+
+(1) Pour l'utiliser, décommenter (supprimer <!-- --> dans) la ligne 20 dans _top.html après installation du plugin Breadcrumb.
+
+
+Version 1.2 - 4 octobre 2009
+=============================================
+* Mise à jour pour Dotclear 2.1.6 - changement de balises MetaData -> Tags et Tag
+
+
+Version 1.1 - 5 août 2008
+=============================================
+* Mise à jour pour Dotclear 2.0 version finale
+
+
+Version 1.0.1 - 5 mars 2007
+=============================================
+* correction de css pour affichage #blognav et #blogextra
+
+
+Version 1.0 - 1er mars 2007
+=============================================
+* Création du thème d'après Hermione par Kozlika
+* Intégration du gabarit mp3 personnalisé et du CSS pour le plugin DayMode

@@ -1,0 +1,94 @@
+body {
+	background-image: url(http://www.edsparkcreation.com/image/fondcla.jpg);
+	background-attachment: fixed, scroll;
+	background-size: cover;
+}
+
+#titre_admin {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+#nav_admin {
+	position: absolute;
+	top: 200px;
+}
+
+#nav_admin a:hover {
+	background-color: #5A5E6B;
+} 
+
+#nav_admin a {
+	color: #FFFFFF;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+#nav_admin2 {
+	position: absolute;
+	top: 200px;
+}
+
+#nav_admin2 a:hover {
+	background-color: #5A5E6B;
+} 
+
+#nav_admin2 a {
+	color: #FFFFFF;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+#article {
+	position: absolute;
+	top: 100px;
+	display: none;
+	animation: POP 3s;
+	left: 120px;
+}
+
+#article:target {
+	display: block;
+}
+
+#form {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#stat {
+	position: absolute;
+	top: 100px;
+	display: none;
+	animation: POP 3s;
+	left: 200px;
+	font-family: 'Indie Flower', cursive;
+	border-radius: 50px;
+	background-color: #FAF0E6;
+}
+
+#stat:target {
+	display: block;
+}
+
+#info {
+	position: absolute;
+	top: 100px;
+	display: none;
+	animation: POP 3s;
+	right: 180px;
+	font-family: 'Indie Flower', cursive;
+	border-radius: 50px;
+	background-color: #FAF0E6;
+}
+
+#info:target {
+	display: block;
+}
+
+@keyframes POP{
+ 0%   { opacity: 0; }
+ 100% { opacity: 1; }
+}

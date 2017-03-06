@@ -1,0 +1,212 @@
+body{
+	background-image: url('https://images.alphacoders.com/653/thumb-1920-653721.png');
+	background-attachment: fixed, scroll;
+	background-size: cover;
+}
+
+/*Index*/
+
+#espace_menu {
+	padding-top: 100px;
+}
+
+#myCarousel {
+	padding-bottom: 20px;
+}
+
+#newA {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+/* form {
+	margin-top: 20px;
+	margin-right: 450px; 
+	margin-left: 450px;
+	opacity: 0.7;
+	color: black;
+} */
+
+input {
+	background-color: #CECECE;
+}
+
+#bienvenue {
+	display: none;
+	animation: POP 3s;
+	font-family: 'Indie Flower', cursive;
+	border-radius: 50px;
+	background-color: #FAF0E6;
+}
+
+#bienvenue:target {
+	display: block;
+}
+
+#hover {
+	background-color: #CECECE;
+	opacity: 0.8;
+	color: black;
+	font-size: 20px;
+}
+
+#hover:hover {
+	background-color: #FFFFFF;
+}
+
+#Almanax {
+	display: none;
+	animation: POP 3s;
+}
+
+#Almanax:target {
+	display: block;
+}
+
+#Facebook {
+	display: none;
+	animation: POP 3s;
+}
+
+#Facebook:target {
+	display: block;
+}
+
+#Twitter {
+	display: none;
+	animation: POP 3s;
+}
+
+#Twitter:target {
+	display: block;
+}
+
+#Youtube {
+	display: none;
+	animation: POP 3s;
+}
+
+#Youtube:target {
+	display: block;
+}
+
+@keyframes POP{
+ 0%   { opacity: 0; }
+ 100% { opacity: 1; }
+}
+
+/*Entête*/
+
+.photo {
+	background-image: 
+	url(http://nsm08.casimages.com/img/2014/11/11//1411111110543281612694570.png);
+	width: 1225px;
+	height: 450px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50px;
+}
+
+.h1_entete {
+	text-align: center;
+}
+
+/*Menus*/
+
+.Nav {
+	list-style-type: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-right: -3.9px;
+}
+
+#imgNAV {
+	width: 119px;
+}
+
+#nav2 {
+	opacity: 0.9;
+	background-color: black;
+	margin-bottom: 50px;
+	height: 120px;
+}
+
+#nav2 a {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+#navC {
+	margin: 0 auto;             /* Centre le block horizontalement */
+    width: 90%;
+}
+
+#navCenter {
+	text-align: center;
+}
+
+#hello {
+	margin: 0 auto;
+    width: 50%;
+	color: #FFFFFF;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
+/*Pied de page*/
+
+#espace_footer {
+	padding-top: 50px;
+}
+
+#pied {
+	background-color: black;
+	color: #FFFFFF;
+	height: 120px;
+	opacity: 0.7;
+}
+
+#pied p {
+	text-align: center;
+}
+
+#piedNav {
+	text-align: center;
+	padding: 10px;
+}
+
+#piedNav a {
+	margin-left: 10px;
+}
+
+/*News*/
+
+#news {
+	border: 2px solid black;
+	border-radius: 10px;
+    background-color: #CECECE;
+	opacity: 0.9;
+    text-align: center;
+}
+
+#espace {
+	padding-top: 20px;
+}
+
+/*Info*/
+
+#info {
+	padding-top: 20px;
+}
+
+/*Com*/
+
+#form_com {
+	margin: -60px;
+}
