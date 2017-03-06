@@ -44,10 +44,14 @@
                     <h4><b>L'histoire du site</b></h4>
 
                     <h4><b>Compatibilité</b></h4>
+                    <p>Ce site à était développé sur le navigateur Google Chrome.</p>
+                    <p>Je vous recommande donc d'utiliser celui-ci pour avoir le meilleur confort de navigation !</p>
 
-                    <h5><b>Javascript</b></h5>
+                    <h4><b>Javascript</b></h4>
+                    <p>"Projet" peut s'afficher correctement sans javascript mais toutes les fonctionnalités ne fonctionneront pas. C'est pourquoi, il vous est fortement recommandé de l'activer pour profiter pleinement de l'ensemble du site.</p>
 
                     <h2><b>Conditions générales d'utilisation</b></h2>
+                    </br>
 
                     <h4><b>1.Introduction</b></h4>
 
@@ -74,6 +78,7 @@
                     <h4><b>10.Divers</b></h4>
 
                     <h2><b>Mentions légales</b></h2>
+                    </br>
                 </div>
             </div> 
             
