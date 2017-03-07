@@ -57,6 +57,13 @@
                 </div>
                 <div id="Qui_suis_je" class="well">
                     <h2 style="text-align: center;">Présentation :</h2>
+                    <p>Bonjour à tous ! Je m'appel Thomas et je suis le créateur et développeur de "Projet" !</p>
+                    <p>"Projet" est un fan-site non officiel du <b>MMORPG Français : Dofus</b>, un jeu en ligne crée par <a style="color: red" href="http://www.ankama.com/fr">Ankama</a>.</p>
+                    <p>J'ai crée ce site dans un premier temps pour m'entraîner a développer un site internet <b>(actuellement en formation de codeur/développeur web)</b>, mais aussi pour pouvoir vous donnez la possibilé de retrouver toutes les news des jeux Ankama sur le même site.</p>
+                    <p>Sur ce site vous pouvez découvrir : différents articles sur l'univers d'Ankama (Dofus 1.29, Dofus 2.0, Dofus Touch, Dofus Pets) mais aussi sur mes aventures en jeu !</p>
+                    <p>Le site est <b>souvent mis à jour</b>, la liste des nouveautés peut-être consultée sur la page appropriée du menu en bas de site : <a style="color: red" href="#">À venir</a>.</p>
+                    <p>Si vous souhaitez voir apparaître une nouvelle page, ou une nouvelle fonctionnalité, etc sur mon site, vous pouvez <b>me contacter</b>.</p>
+                    <p style="text-align: center;"><b>CaptainFire03</b></p>
                 </div>
                 <div id="Almanax">
                 <iframe width="350" height="150" frameborder="0" scrolling="no" 
