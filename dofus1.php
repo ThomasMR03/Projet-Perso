@@ -54,6 +54,7 @@ while ($donnees = $req->fetch())
  
 <!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
             <div class="col-xs-10"> 
+            <h1 style="text-align: center; font-family: 'Indie Flower', cursive; font-size: 100px"><u>L'actu 100% 1.29</u></h1>
             <div id="news">
                <h5>
                     <span style="color: red" class="glyphicon glyphicon-triangle-right"></span><i><em>Le <?php echo $donnees['date_creation_fr']; ?></em>
