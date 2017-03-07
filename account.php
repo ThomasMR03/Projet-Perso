@@ -71,4 +71,8 @@
 
 </div>
 
+<div id="espace_menu">
+    
+</div>
+
 <?php require 'pied_de_page.php'; ?>

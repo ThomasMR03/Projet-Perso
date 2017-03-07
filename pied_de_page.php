@@ -1,4 +1,4 @@
-<body>
+<footer>
 
 <div id="espace_footer">
 	
@@ -20,6 +20,8 @@ Certaines illustrations sont la propriété d'Ankama Studio et de Dofus </br>
 Merci de ne pas copier le contenu de ce site sans autorisation. </br> Tous droits réservés.</p>
 	
 </div>
+
+</footer>
 
 <script type="text/javascript" src="js/javascript.js"></script> <!-- Liaison avec JavaScript -->
 </body>

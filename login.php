@@ -88,6 +88,3 @@
 </div>
 
 <?php require 'pied_de_page.php'; ?>
-<script type="text/javascript" src="js/javascript.js"></script> <!-- Liaison avec JavaScript -->
-</body>
-</html>

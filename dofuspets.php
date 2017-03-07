@@ -96,13 +96,8 @@ $req->closeCursor();
 
 </article>
 
-<footer>
-
-    <!-- Le pied de page -->
+<div id="espace_menu">
     
-    <?php include("pied_de_page.php"); ?>
-
-</footer>
-
-</body>
-</html>
+</div>
+   
+<?php include("pied_de_page.php"); ?>

@@ -8,9 +8,8 @@
         <div id="espace_menu">
     
         </div>
-
-        <h1></h1>
-        <h4 style="text-align: center;"><span style="color: red" class="glyphicon glyphicon-menu-down"></span> <u>Derniers billets du blog</u> <span style="color: red" class="glyphicon glyphicon-menu-down"></span></h4>
+        
+<article>
  
 <?php
 // Connexion à la base de données
@@ -87,64 +86,12 @@ while ($donnees = $req->fetch())
 <?php
 } // Fin de la boucle des billets
 $req->closeCursor();
-?> 
+?>
 
-<!-- Le corps -->
+</article>
 
-<!-- Création du corps de la page. -->
-<div class="container"> 
- 
-<!-- Déclaration de la première grille, au niveau du corps de la page. -->
-    <div class="row">
-
-<!-- Création d'une première zone dont la largeur sera égale à 9 colonnes -->
-        <div class="col-md-12"> 
- 
-<!-- Création de la seconde grille, cette dernière aura une largeur égale de de la première zone que nous venons de créer  -->
-        <div class="row"> 
- 
-<!-- Insertion d’une première section qui occupe 4 colonnes de notre nouvelle grille. -->
-            <div class="col-xs-2">
-                
-            </div>
-<!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
-            <div class="col-xs-8">
-                <div class="form-group"> 
-                <form method="post" action="billet_post.php">
-            <label for="pseudo">Pseudo : </label><input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Entrez votre pseudo..." maclength="20" /><br />
-            <label for="titre">Titre : </label><input type="text" class="form-control" name="titre" id="titre" placeholder="Entrez le titre..." maxlength="50" /><br />
-            <label for="article">Article : </label><br /><textarea class="form-control" name="article" id="editor1" rows="10" cols="80" placeholder="Ecrivez votre article ici...">
-                
-            </textarea><br />
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using default configuration.
-                CKEDITOR.replace( 'editor1' );
-            </script>
-            <input type="submit" class="btn btn-danger" value="Envoyer" />
-                </form>
-                </div>
-            </div>
-
-<!-- cette derniere section occupe le reste de la grille (8 colonnes) -->
-            <div class="col-xs-2">
-                
-          
-            </div>
-        </div> 
+<div id="espace_menu">
     
-        </div>
-    </div>
+</div>
 
-</div> 
-
-<footer>
-
-    <!-- Le pied de page -->
-    
-    <?php include("pied_de_page.php"); ?>
-
-</footer>
-<script type="text/javascript" src="js/javascript.js"></script> <!-- Liaison avec JavaScript -->
-</body>
-</html>
+<?php include("pied_de_page.php"); ?>

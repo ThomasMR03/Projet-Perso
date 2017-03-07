@@ -92,15 +92,10 @@ while ($donnees = $req->fetch())
 $req->closeCursor();
 ?>
 
-</article> 
+</article>
 
-<footer>
-
-    <!-- Le pied de page -->
+<div id="espace_menu">
     
-    <?php include("pied_de_page.php"); ?>
+</div>
 
-</footer>
-
-</body>
-</html>
+<?php include("pied_de_page.php"); ?>

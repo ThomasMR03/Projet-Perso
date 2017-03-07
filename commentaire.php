@@ -147,12 +147,8 @@ $req->closeCursor();
 ?>
 <footer>
 
-    <!-- Le pied de page -->
+<div id="espace_menu">
     
-    <?php include("pied_de_page.php"); ?>
+</div>
 
-</footer>
-
-<script type="text/javascript" src="js/javascript.js"></script> <!-- Liaison avec JavaScript -->
-</body>
-</html>
+<?php include("pied_de_page.php"); ?>

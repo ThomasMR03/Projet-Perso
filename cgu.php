@@ -100,14 +100,5 @@
 <div id="espace_menu">
     
 </div>
-
-<footer>
-
-    <!-- Le pied de page -->
-    
-    <?php include("pied_de_page.php"); ?>
-
-</footer>
-
-</body>
-</html>
+ 
+<?php include("pied_de_page.php"); ?>
