@@ -10,8 +10,8 @@
 	<ul>
 		<li><a href="index.php" title="Accueil">Home</a></li>
 		<li><a href="#" title="Retour en haut de la page">Haut de page</a></li>
-		<li><a href="#" title="Projet à venir sur le site">À venir</a></li>
-		<li><a href="#" title="À propos & CGU">À propos & CGU</a></li>
+		<li><a href="maj.php" title="Mise à jour du site">Mise à jour</a></li>
+		<li><a href="cgu.php" title="À propos & CGU">À propos & CGU</a></li>
 	</ul>
 </nav>
 
