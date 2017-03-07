@@ -72,7 +72,7 @@
                 </div>
                 <div id="Facebook">
                     <div>
-                    <h3 style="text-align: center; color: #912B3B;"><span style="color: #912B3B;" class="glyphicon glyphicon-menu-down"></span> Nous rejoindre sur Facebook <span style="color: #912B3B;" class="glyphicon glyphicon-menu-down"></span></p>
+                    <h3 style="text-align: center; color: #912B3B;"><span style="color: #912B3B;" class="glyphicon glyphicon-menu-down"></span> Rejoindre Dofus sur Facebook <span style="color: #912B3B;" class="glyphicon glyphicon-menu-down"></span></p>
                     <p><a class="btn btn-default" href="https://www.facebook.com/DOFUS"><img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16711749_1487036894670024_3515168637264643690_n.jpg?oh=0b3c9f3651042c678389393a8d13ec2c&oe=596C8A35" style="width: px; height: 200px;"></a></h3>
                     </div>
                 </div>
