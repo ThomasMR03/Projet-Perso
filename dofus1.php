@@ -17,7 +17,9 @@
 
 <article>
 
-<h1 style="text-align: center; font-family: 'Indie Flower', cursive; font-size: 100px"><u>L'actu 100% 1.29</u></h1>
+<div id="cadre_article">
+<h1 id="titre_article"><u>L'actu 100% 1.29</u></h1>
+</div>
 
 <?php
 // Connexion à la base de données
