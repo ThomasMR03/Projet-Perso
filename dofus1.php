@@ -18,7 +18,7 @@
 <article>
 
 <div id="cadre_article">
-<h1 id="titre_article"><u>L'actu 100% 1.29</u></h1>
+<h1 id="titre_article">L'actu 100% 1.29</h1>
 </div>
 
 <?php
