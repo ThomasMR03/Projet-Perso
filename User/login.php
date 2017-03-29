@@ -11,7 +11,7 @@
 		if (password_verify($_POST['password'], $user->password)) {
 			$_SESSION['auth'] = $user;
 			$_SESSION['flash']['success'] = 'Vous êtes connecté';
-			header('location: index.php');
+			header('location: ../index.php');
 			exit();
 
 

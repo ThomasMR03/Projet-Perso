@@ -92,3 +92,12 @@ body {
  0%   { opacity: 0; }
  100% { opacity: 1; }
 }
+
+#titre_option_cat {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#option_cat {
+	color: #FFFFFF;
+}

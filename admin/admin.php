@@ -54,16 +54,47 @@ admin_only();
             <div class="col-xs-8"> 
             <div class="form-group" id="article"> 
                 <form method="post" action="http://localhost/Projet/billet_post.php">
-            <label id="form" for="pseudo">Pseudo : </label><input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Entrez votre pseudo..." maclength="20" /><br />
+            <label id="form" for="pseudo">Pseudo : </label><input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Entrez votre pseudo..." maxlength="20" /><br />
             <label id="form" for="titre">Titre : </label><input type="text" class="form-control" name="titre" id="titre" placeholder="Entrez le titre..." maxlength="50" /><br />
             <label id="form" for="article">Article : </label><br /><textarea class="form-control" name="article" id="editor1" rows="10" cols="80" placeholder="Ecrivez votre article ici...">
-                
             </textarea><br />
             <script>
                 // Replace the <textarea id="editor1"> with a CKEditor
                 // instance, using default configuration.
                 CKEDITOR.replace( 'editor1' );
             </script>
+            <div class="row">
+            <p id="titre_option_cat">Choississez une catégorie :</p>
+            <div class="col-xs-2">
+                
+            </div>
+                <div class="col-xs-3">
+                    <label>
+                    <div class="radio">
+                        <input type="radio" name="id_page" id="optionsRadios0" value="0"> <p id="option_cat">Mes aventures </br>
+                        <input type="radio" name="id_page" id="optionsRadios1" value="1"> Dofus 1.29 </br>
+                        <input type="radio" name="id_page" id="optionsRadios2" value="2"> Dofus 2.0 </br>
+                        <input type="radio" name="id_page" id="optionsRadios3" value="3"> DofusTouch </p>
+                    </div>
+                    </label>
+                </div>
+                <div class="col-xs-3">
+                        
+                </div>
+                <div class="col-xs-3">
+                    <label>
+                    <div class="radio">
+                        <input type="radio" name="id_page" id="optionsRadios4" value="4"> <p id="option_cat">DofusPets </br>
+                        <input type="radio" name="id_page" id="optionsRadios5" value="5"> News </br>
+                        <input type="radio" name="id_page" id="optionsRadios6" value="6"> Mise à jours </br>
+                        <input type="radio" name="id_page" id="optionsRadios7" value="7"> Ankama </p>
+                    </div>
+                    </label>
+                </div>
+            <div class="col-xs-2">
+                    
+            </div>
+            </div>
             <input type="submit" class="btn btn-danger" value="Envoyer" />
                 </form>
             </div>
