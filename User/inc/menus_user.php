@@ -36,7 +36,7 @@ if(session_status() == PHP_SESSION_NONE){
                       <a href="#"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/acmemb10.png" title="Membre"></a>
                     </li>
                     <li>
-                      <a href="../login.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/barre_10.png" title="Connexion"></a>
+                      <a href="login.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/barre_10.png" title="Connexion"></a>
                     </li>
                   </ul>
                 </nav>
@@ -106,8 +106,8 @@ if(session_status() == PHP_SESSION_NONE){
                     <?php endif; ?>
                 </li>
                 </ul>
-                  <li><a href="cgu.php">À propos & CGU</a></li>
-                  <li><a href='admin/admin.php'>Administration</a></li>
+                  <li><a href="../cgu.php">À propos & CGU</a></li>
+                  <li><a href='../admin/admin.php'>Administration</a></li>
     					</ul>
   					</div>
 				</nav>
