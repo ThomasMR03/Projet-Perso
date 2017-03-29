@@ -1,7 +1,7 @@
 <?php
 	if(isset($_GET['id']) && isset($_GET['token'])){
-		require_once 'inc/db.php';
-		require_once 'inc/function.php';
+		require_once '../inc/db.php';
+		require_once '../inc/function.php';
 		session_start();
 		$req = $pdo->prepare('SELECT * FROM users WHERE id = ? AND reset_token IS NOT NULL AND reset_token = ? AND reset_at > NOW()-(1000*60*30)');
 		$req->execute([$_GET['id'],$_GET['token']]);
@@ -39,7 +39,7 @@
 
 
 ?>
-<?php require 'inc/header.php'; ?>
+
 <h1>Réinitialisez votre mot de passe</h1>
 
 <form action="" method="post">
@@ -51,5 +51,3 @@
 	</div>
 	<button type="submit" class="btn btn-primary">Modifier le mot de passe</button>
 </form>
-
-<?php require 'inc/footer.php'; ?>

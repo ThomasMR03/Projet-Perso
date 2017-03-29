@@ -1,13 +1,13 @@
-<?php include("header.php"); ?>
+<?php include("inc/header_pages.php"); ?>
 
-	<title>Dofus 2.0</title>
+	<title>Dofus Pets</title>
 <body>
 
 <header>
 
-<?php include("entete.php"); ?>
+<?php include("../entete.php"); ?>
     
-<?php include("menus.php"); ?>
+<?php include("inc/menus_pages.php"); ?>
 
 </header>
 
@@ -99,5 +99,5 @@ $req->closeCursor();
 <div id="espace_menu">
     
 </div>
-
-<?php include("pied_de_page.php"); ?>
+   
+<?php include("inc/pied_de_page_pages.php"); ?>

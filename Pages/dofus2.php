@@ -1,22 +1,21 @@
-<?php include("header.php"); ?>
+<?php include("inc/header_pages.php"); ?>
 
-	<title>Ankama</title>
-
+	<title>Dofus 2.0</title>
 <body>
 
 <header>
 
-<?php include("entete.php"); ?>
+<?php include("../entete.php"); ?>
     
-<?php include("menus.php"); ?>
+<?php include("inc/menus_pages.php"); ?>
 
 </header>
-
-<article>
 
 <div id="espace_menu">
     
 </div>
+
+<article>
 
 <?php
 // Connexion à la base de données
@@ -30,7 +29,7 @@ catch(Exception $e)
 }
 
 // On récupère les 5 derniers billets
-$req = $bdd->query('SELECT id, id_page, titre, contenu, auteur, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%imin%ss\') AS date_creation_fr FROM billets WHERE id_page = 7 ORDER BY date_creation DESC LIMIT 0, 5');
+$req = $bdd->query('SELECT id, id_page, titre, contenu, auteur, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%imin%ss\') AS date_creation_fr FROM billets WHERE id_page = 2 ORDER BY date_creation DESC LIMIT 0, 5');
 
 while ($donnees = $req->fetch())
 {
@@ -93,7 +92,7 @@ while ($donnees = $req->fetch())
 <?php
 } // Fin de la boucle des billets
 $req->closeCursor();
-?>
+?>  
 
 </article>
 
@@ -101,4 +100,4 @@ $req->closeCursor();
     
 </div>
 
-<?php include("pied_de_page.php"); ?>
+<?php include("inc/pied_de_page_pages.php"); ?>

@@ -3,7 +3,7 @@
 	if(isset($_GET["id"]) && isset($_GET["token"])){
 	$user_id = $_GET['id'];
 	$user_token = $_GET["token"];
-	require_once 'inc/db.php';
+	require_once '../inc/db.php';
 	$req = $pdo->prepare('SELECT * FROM users WHERE id = ?');
 	$req->execute([$user_id]);
 	$user = $req->fetch();

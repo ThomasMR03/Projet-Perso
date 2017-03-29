@@ -23,20 +23,20 @@ if(session_status() == PHP_SESSION_NONE){
  
 <!-- Insertion d’une première section qui occupe 4 colonnes de notre nouvelle grille. -->
             <div class="col-xs-3">
-              <?php include("info.php"); ?>
+              <?php include("../info.php"); ?>
             </div>
 <!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
             <div class="col-xs-7">
                 <nav id="nav">
                   <ul class="Nav">
                     <li>
-                      <a href="index.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/accuei10.png" title="Accueil"></a>
+                      <a href="../index.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/accuei10.png" title="Accueil"></a>
                     </li>
                     <li>
                       <a href="#"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/acmemb10.png" title="Membre"></a>
                     </li>
                     <li>
-                      <a href="user/login.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/barre_10.png" title="Connexion"></a>
+                      <a href="../login.php"> <img src="https://i56.servimg.com/u/f56/17/41/84/01/barre_10.png" title="Connexion"></a>
                     </li>
                   </ul>
                 </nav>
@@ -60,15 +60,15 @@ if(session_status() == PHP_SESSION_NONE){
         <?php endif; ?>
   					<div class="container-fluid" id="navC">
     					<div class="navbar-header">
-      						<a class="navbar-brand" href="index.php" style="color: red;">Projet |</a>
-                  <a class="navbar-brand" href="indexbillet.php" style="color: red;">| Mes Aventures</a>
+      						<a class="navbar-brand" href="../index.php" style="color: red;">Projet |</a>
+                  <a class="navbar-brand" href="../indexbillet.php" style="color: red;">| Mes Aventures</a>
     					</div>
     					<ul class="nav navbar-nav">
       						<li class="dropdown">
         					<a class="dropdown-toggle" data-toggle="dropdown" href="#">L'histoire du jeu
         					<span class="caret"></span></a>
         				<ul class="dropdown-menu" role="menu">
-                    <li><a href="Pages/ankama.php">Ankama</a></li>
+                    <li><a href="../Pages/ankama.php">Ankama</a></li>
                     <li><a href="http://forum.dofus.com/fr/1580-1-29-eratz-henual">Forum Dofus 1.29</a></li>
                     <li><a href="http://www.dofus.com/fr">Site Dofus 2.0</a></li>
                     <li><a href="http://www.dofus-touch.com/fr">Site Dofus Touch</a></li>
@@ -79,18 +79,18 @@ if(session_status() == PHP_SESSION_NONE){
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Actualités
                   <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="Pages/news.php">News</a></li>
-                    <li><a href="Pages/maj.php">Mise à jour</a></li>
+                    <li><a href="../news.php">News</a></li>
+                    <li><a href="../maj.php">Mise à jour</a></li>
                     </li>
                 </ul>
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Jeux
                   <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="Pages/dofus1.php">Dofus 1.29</a></li>
-                    <li><a href="Pages/dofus2.php">Dofus 2.0</a></li>
-                    <li><a href="Pages/dofustouch.php">Dofus Touch</a></li>
-                    <li><a href="Pages/dofuspets.php">Dofus Pets</a></li>
+                    <li><a href="../dofus1.php">Dofus 1.29</a></li>
+                    <li><a href="../dofus2.php">Dofus 2.0</a></li>
+                    <li><a href="../dofustouch.php">Dofus Touch</a></li>
+                    <li><a href="../dofuspets.php">Dofus Pets</a></li>
                     </li>
                 </ul>
                 <li class="dropdown">
@@ -98,11 +98,11 @@ if(session_status() == PHP_SESSION_NONE){
                   <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <?php if(isset($_SESSION['auth'])): ?>
-                <li><a href="User/account.php">Changer de mot de passe</a></li>
-                <li><a href="User/logout.php">Se déconnecter</a></li>
+                <li><a href="account.php">Changer de mot de passe</a></li>
+                <li><a href="logout.php">Se déconnecter</a></li>
                     <?php else : ?>
-                <li><a href="User/login.php">Se connecter</a></li>
-                <li><a href="User/register.php">S'inscrire</a></li>
+                <li><a href="login.php">Se connecter</a></li>
+                <li><a href="register.php">S'inscrire</a></li>
                     <?php endif; ?>
                 </li>
                 </ul>

@@ -1,13 +1,13 @@
-<?php include("header.php"); ?>
+<?php include("inc/header_pages.php"); ?>
 
-	<title>Dofus Pets</title>
+	<title>Dofus 1.29</title>
 <body>
 
 <header>
 
-<?php include("entete.php"); ?>
+<?php include("../entete.php"); ?>
     
-<?php include("menus.php"); ?>
+<?php include("inc/menus_pages.php"); ?>
 
 </header>
 
@@ -17,11 +17,15 @@
 
 <article>
 
+<div id="cadre_article1_29">
+<h1 id="titre_article1_29">L'actu 100% 1.29</h1>
+</div>
+
 <?php
 // Connexion à la base de données
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=live;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=live;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
@@ -29,7 +33,7 @@ catch(Exception $e)
 }
 
 // On récupère les 5 derniers billets
-$req = $bdd->query('SELECT id, id_page, titre, contenu, auteur, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%imin%ss\') AS date_creation_fr FROM billets WHERE id_page = 2 ORDER BY date_creation DESC LIMIT 0, 5');
+$req = $bdd->query('SELECT id, id_page, titre, contenu, auteur, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%imin%ss\') AS date_creation_fr FROM billets WHERE id_page = 1 ORDER BY date_creation DESC LIMIT 0, 5');
 
 while ($donnees = $req->fetch())
 {
@@ -92,12 +96,12 @@ while ($donnees = $req->fetch())
 <?php
 } // Fin de la boucle des billets
 $req->closeCursor();
-?>  
+?>
 
 </article>
 
 <div id="espace_menu">
     
 </div>
-   
-<?php include("pied_de_page.php"); ?>
+
+<?php include("inc/pied_de_page_pages.php"); ?>

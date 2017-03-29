@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("inc/header_pages.php"); ?>
 
 	<title>Les News</title>
 
@@ -6,9 +6,9 @@
 
 <header>
 
-<?php include("entete.php"); ?>
+<?php include("../entete.php"); ?>
     
-<?php include("menus.php"); ?>
+<?php include("inc/menus_pages.php"); ?>
 
 </header>
 
@@ -98,4 +98,4 @@ $req->closeCursor();
     
 </div>
 
-<?php include("pied_de_page.php"); ?>
+<?php include("inc/pied_de_page_pages.php"); ?>

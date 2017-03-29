@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	if (!empty($_POST)) {
-		require_once 'inc/function.php';
-		require_once 'inc/db.php';
+		require_once '../inc/function.php';
+		require_once '../inc/db.php';
 
 		if(empty($_POST['username']) || !preg_match('/^[a-zA-Z0-9_]+$/', $_POST['username'])){
 			$_SESSION['flash']['danger'] = "Votre pseudo n'est pas valide (alpha_numerique)";
@@ -49,9 +49,9 @@
 	}
 
 ?>
-<?php require 'header.php'; ?>
-<?php require 'entete.php'; ?>
-<?php require 'menus.php'; ?>
+<?php require 'inc/header_user.php'; ?>
+<?php require '../entete.php'; ?>
+<?php require 'inc/menus_user.php'; ?>
 
 <div id="espace_menu">
     
@@ -113,4 +113,4 @@
     
 </div>
 
-<?php require 'pied_de_page.php'; ?>
+<?php require 'inc/pied_de_page_user.php'; ?>

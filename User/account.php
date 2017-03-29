@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once 'inc/function.php';
+	require_once '../inc/function.php';
 	user_only();
 
 	if (!empty($_POST)) {
@@ -9,7 +9,7 @@
 		}else{
 			$user_id = $_SESSION['auth']->id;
 			$password = password_hash($_POST['password'], PASSWORD_BCRYPT);
-			require_once 'inc/db.php';
+			require_once '../inc/db.php';
 			$pdo->prepare('UPDATE users SET password = ? WHERE id =?')->execute([$password, $user_id]);
 			$_SESSION['flash']['success'] = 'Votre mot de passe a bien été changé';
 		} 
@@ -19,9 +19,9 @@
 
 
 ?>
-<?php require 'header.php'; ?>
-<?php require 'entete.php'; ?>
-<?php require 'menus.php'; ?>
+<?php require 'inc/header_user.php'; ?>
+<?php require '../entete.php'; ?>
+<?php require 'inc/menus_user.php'; ?>
 
 <div id="espace_menu">
     
@@ -75,4 +75,4 @@
     
 </div>
 
-<?php require 'pied_de_page.php'; ?>
+<?php require 'inc/pied_de_page_user.php'; ?>

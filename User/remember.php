@@ -1,7 +1,7 @@
 <?php
 	if (!empty($_POST) && !empty($_POST['mail'])) {
-		require_once 'inc/db.php';
-		require_once 'inc/function.php';
+		require_once '../inc/db.php';
+		require_once '../inc/function.php';
 		$req = $pdo->prepare('SELECT * FROM users WHERE  mail = ? AND valid_at IS NOT NULL');
 		$req->execute([$_POST['mail']]);
 		$user = $req->fetch();
@@ -33,9 +33,9 @@
 
 
 
-<?php require 'header.php'; ?>
-<?php require 'entete.php'; ?>
-<?php require 'menus.php'; ?>
+<?php require 'inc/header_user.php'; ?>
+<?php require '../entete.php'; ?>
+<?php require 'inc/menus_user.php'; ?>
 
 <div id="espace_menu">
     
@@ -87,4 +87,4 @@
     
 </div>
 
-<?php require 'pied_de_page.php'; ?>
+<?php require 'inc/pied_de_page_user.php'; ?>
